@@ -2,7 +2,7 @@
 lock '3.4.0'
 
 set :application, 'battleship'
-set :repo_url, 'https://github.com/Tref/battleship.git'
+set :repo_url, 'https://github.com/Tref/battleship-api.git'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
