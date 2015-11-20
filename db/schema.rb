@@ -23,7 +23,7 @@ ActiveRecord::Schema.define(version: 20151119213450) do
     t.string   "positions"
   end
 
-  add_index "games", ["player_id"], name: "index_games_on_player_id"
+  # add_index "games", ["player_id"], name: "index_games_on_player_id"
 
   create_table "players", force: :cascade do |t|
     t.string   "name"
